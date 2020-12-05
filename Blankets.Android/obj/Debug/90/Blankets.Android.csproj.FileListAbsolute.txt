@@ -1982,3 +1982,4 @@ C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets.Android\obj\Debug\90\stamp
 C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets.Android\obj\Debug\90\res\drawable\chat_bubble_fill.jpg

@@ -8,10 +8,14 @@
         </StackLayout>
     </NavigationPage.TitleView>
     <StackLayout VerticalOptions="End" Margin="0,10,0,20">
-        <Grid x:Name="Buttons" ColumnDefinitions="70*, 15*, 15*" ColumnSpacing="8" HorizontalOptions="FillAndExpand"  >
+        <StackLayout VerticalOptions="End" Margin="0,10,0,20">
             <Entry x:Name="Entry_Small_Page" Grid.Column="0"/>
-            <Button x:Name ="ButtonSignUp" Grid.Column="1" Text="Sign Up"  HorizontalOptions="FillAndExpand"/>
-            <Button x:Name ="GoBack" Grid.Column="2" Text="Go Back"  HorizontalOptions="FillAndExpand"/>
-        </Grid>
+        </StackLayout>
+        <StackLayout >
+            <Grid x:Name="Buttons" ColumnDefinitions="50*, 50*" ColumnSpacing="8" HorizontalOptions="FillAndExpand"  >
+                <Button x:Name ="Enter_SmallPage" Grid.Column="0" Text="ENTER" Clicked="Send_message_SmallPage" HorizontalOptions="FillAndExpand"/>
+                <Button x:Name ="Games_SmallPage" Grid.Column="1" Text="Games" Clicked="Send_games_SmallPage" HorizontalOptions="FillAndExpand"/>
+            </Grid>
+        </StackLayout>
     </StackLayout>
 </ContentPage>

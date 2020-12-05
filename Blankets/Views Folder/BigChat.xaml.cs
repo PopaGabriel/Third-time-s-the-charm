@@ -23,6 +23,13 @@ namespace Blankets.Views_Folder
         {
             InitializeComponent();
         }
-        
+        public void Send_messageBigPage(object sender, EventArgs e)
+        {
+
+        }
+        public void Send_games_BigPage(object sender, EventArgs e)
+        {
+            //A nu se implementa!!!!
+        }
     }
 }

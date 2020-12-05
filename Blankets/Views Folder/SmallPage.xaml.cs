@@ -23,5 +23,13 @@ namespace Blankets.Views_Folder
         {
             InitializeComponent();
         }
+        public void Send_message_SmallPage(object sender, EventArgs e)
+        {
+            
+        }
+        public void Send_games_SmallPage(object sender, EventArgs e)
+        {
+
+        }
     }
 }

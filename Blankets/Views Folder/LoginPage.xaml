@@ -11,8 +11,8 @@
                 <StackLayout.Padding>
                         <OnIdiom x:TypeArguments="Thickness" Phone="40,50,40,0" Tablet="140, 150, 140, 0"/>
                 </StackLayout.Padding>
-                <Label x:Name="Label_UserName" Text ="UserName"/>
-                <Entry x:Name="Entry_Username" Placeholder="UserName" />
+                <Label x:Name="Label_Email" Text ="UserEmail"/>
+                <Entry x:Name="Entry_Email" Placeholder="UserEmail" />
                 
                 <Label x:Name ="Label_Password" Text="Password"/>
                 <Entry x:Name = "Entry_Password" Placeholder="Password"/>

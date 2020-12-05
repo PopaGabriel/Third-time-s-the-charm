@@ -17,22 +17,22 @@ namespace Blankets.Views_Folder
         }
         public void Init() {
             BackgroundColor = Constants.BackgroundColor;
-            Label_UserName.TextColor = Constants.MainTextColor;
-            Entry_Username.TextColor = Constants.MainTextColor;
+            Label_Email.TextColor = Constants.MainTextColor;
+            Entry_Email.TextColor = Constants.MainTextColor;
             Label_Password.TextColor = Constants.MainTextColor;
             Entry_Password.TextColor = Constants.MainTextColor;
         }
         private async void ProcedureSignIn(object sender, EventArgs e)
         {
-            User user = new User(Entry_Username.Text, Entry_Password.Text);
+            User user = new User(Entry_Email.Text, Entry_Password.Text);
             if (Device.RuntimePlatform == Device.Android)
             {
-                if (Entry_Username.Text != null && Entry_Password.Text != null)
+                if (Entry_Email.Text != null && Entry_Password.Text != null)
                 {
                     // await DisplayAlert("Alert", Entry_Username.Text + " " + Entry_Password.Text, "OK");
                     HttpClient client = new HttpClient();
                     LoginData login_attempt = new LoginData();
-                    login_attempt.Usercode = Entry_Username.Text;
+                    login_attempt.Usercode = Entry_Email.Text;
                     login_attempt.Password = Entry_Password.Text;
                     
                     // la adresa de login
@@ -63,7 +63,7 @@ namespace Blankets.Views_Folder
                 }
                 else
                 {
-                    await DisplayAlert("Alert", "Please insert both username and password", "OK");
+                    await DisplayAlert("Alert", "Please insert both your Email and your password", "OK");
                 }
                 Application.Current.MainPage = new NavigationPage(new Test(user));
             }
@@ -74,7 +74,7 @@ namespace Blankets.Views_Folder
         }
         private async void ProcedureSignUp(object sender, EventArgs e)
         {
-            User user = new User(Entry_Username.Text, Entry_Password.Text);
+            User user = new User(Entry_Email.Text, Entry_Password.Text);
             if (Device.RuntimePlatform == Device.Android)
             {
                 //De schimbat

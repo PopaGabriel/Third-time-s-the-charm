@@ -9,9 +9,15 @@
             </StackLayout>
         </StackLayout>
     </NavigationPage.TitleView>
-    <ContentPage.Content>
-        <StackLayout>
-            
+    <StackLayout VerticalOptions="End" Margin="0,10,0,20">
+        <StackLayout VerticalOptions="End" Margin="0,10,0,20">
+            <Entry x:Name="Entry_Big_Page" Grid.Column="0"/>
         </StackLayout>
-    </ContentPage.Content>
+        <StackLayout >
+            <Grid x:Name="Buttons" ColumnDefinitions="50*, 50*" ColumnSpacing="8" HorizontalOptions="FillAndExpand"  >
+                <Button x:Name ="Enter_BigPage" Grid.Column="0" Text="ENTER" Clicked="Send_messageBigPage" HorizontalOptions="FillAndExpand"/>
+                <Button x:Name ="Games_BigPage" Grid.Column="1" Text="Games" Clicked="Send_games_BigPage" HorizontalOptions="FillAndExpand"/>
+            </Grid>
+        </StackLayout>
+    </StackLayout>
 </ContentPage>
