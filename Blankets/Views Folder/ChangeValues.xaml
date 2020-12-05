@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Blankets.Views_Folder.ChangeValues">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="Label_UserName_change" Text ="Change UserName" />
+            <Entry x:Name="Entry_UserName_change"/>
+
+            <Label x:Name="Label_Password_change" Text ="Change Password" />
+            <Entry x:Name="Entry_Password_change"/>
+
+            <Label x:Name="Label_Email_change" Text ="Change Email" />
+            <Entry x:Name="Entry_Email_change"/>
+
+            <Button x:Name="Button_Change_data" Text="Apply Changes" Clicked="Aa"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

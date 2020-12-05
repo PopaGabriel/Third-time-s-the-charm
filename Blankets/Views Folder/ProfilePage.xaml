@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local1="clr-namespace:Blankets.Models"
+             x:Class="Blankets.Test">
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" Spacing="205">
+            <StackLayout Orientation="Horizontal" VerticalOptions="Fill" Spacing="5" HorizontalOptions="Start">
+                <Button x:Name="Chats" Text="Menu" TextColor="White" Clicked="ProcedureMenu" BackgroundColor="DeepSkyBlue"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="Fill" Spacing="100" HorizontalOptions="End">
+                <Button x:Name="Logout" Text="Logout" TextColor="White" Clicked="ProcedureLogout" BackgroundColor="DeepSkyBlue"/>
+            </StackLayout>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand" Margin="40, 50, 40, 0 ">
+                <Image x:Name="LoginIcon" Source= "logo_size_invert.jpg"/>
+            </StackLayout>
+            <StackLayout x:Name="ProfileDetails" VerticalOptions="FillAndExpand">
+                <Label x:Name="ProfileName" Text ="Profile Name" />
+                    <Label x:Name="Work_Position" Text ="Job: {User.job}" />
+                    <Label x:Name="ProfileCompany" Text="Company {User.company}"/>
+                   <Button x:Name="Change_Account_Details" Text="Change account details!" Clicked="ChangeAccountDetails"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

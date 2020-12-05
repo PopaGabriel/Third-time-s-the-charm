@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Blankets.Views_Folder.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand" Margin="40, 50, 40, 0 ">
+                <Image x:Name="LoginIcon" Source= "logo_size_invert.jpg"/>
+            </StackLayout>
+            <StackLayout x:Name="LoginInformationStack" VerticalOptions="FillAndExpand">
+                <StackLayout.Padding>
+                        <OnIdiom x:TypeArguments="Thickness" Phone="40,50,40,0" Tablet="140, 150, 140, 0"/>
+                </StackLayout.Padding>
+                <Label x:Name="Label_UserName" Text ="UserName"/>
+                <Entry x:Name="Entry_Username" Placeholder="UserName" />
+                
+                <Label x:Name ="Label_Password" Text="Password"/>
+                <Entry x:Name = "Entry_Password" Placeholder="Password"/>
+                
+                <Button x:Name ="ButtonSignIn" Text="Sign In" Clicked="ProcedureSignIn"/>
+                
+                <Button x:Name ="ButtonSignUp" Text="Sign Up" Clicked="ProcedureSignUp"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
