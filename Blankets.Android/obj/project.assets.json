@@ -1975,24 +1975,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Catalin\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Theodor\\.nuget\\packages\\": {},
+    "E:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets.Android\\Blankets.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Theodor\\Desktop\\hack lsac\\blankets4\\Third-time-s-the-charm\\Blankets.Android\\Blankets.Android.csproj",
       "projectName": "Blankets.Android",
-      "projectPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets.Android\\Blankets.Android.csproj",
-      "packagesPath": "C:\\Users\\Catalin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets.Android\\obj\\",
+      "projectPath": "C:\\Users\\Theodor\\Desktop\\hack lsac\\blankets4\\Third-time-s-the-charm\\Blankets.Android\\Blankets.Android.csproj",
+      "packagesPath": "C:\\Users\\Theodor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Theodor\\Desktop\\hack lsac\\blankets4\\Third-time-s-the-charm\\Blankets.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "E:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Catalin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Theodor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2006,8 +2006,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets\\Blankets.csproj": {
-              "projectPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets\\Blankets.csproj"
+            "C:\\Users\\Theodor\\Desktop\\hack lsac\\blankets4\\Third-time-s-the-charm\\Blankets\\Blankets.csproj": {
+              "projectPath": "C:\\Users\\Theodor\\Desktop\\hack lsac\\blankets4\\Third-time-s-the-charm\\Blankets\\Blankets.csproj"
             }
           }
         }

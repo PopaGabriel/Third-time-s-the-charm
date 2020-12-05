@@ -14,13 +14,17 @@ namespace Blankets
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Test : ContentPage
     {
-        User user_current;
-        public Test(User user)
+        Utilizator user_current;
+        string token;
+        public Test(Utilizator utilizator, string token)
         {
-            user_current = user;
+            this.token = token;
+            user_current = utilizator;
             InitializeComponent();
-            if(user_current.UserName1 != null)
-                ProfileName.SetBinding(Label.TextProperty, user_current.UserName1);
+            ProfileName.Text = "Username: " + utilizator.username;
+            Email.Text = "Email: " + utilizator.email;
+            Work_Position.Text = "Position: CEO";
+            ProfileCompany.Text = "Company: DB";
         }
         private async void ChangeAccountDetails(object sender, EventArgs e)
         {

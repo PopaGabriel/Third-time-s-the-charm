@@ -13,10 +13,10 @@ namespace Blankets.Views_Folder
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ChangeValues : ContentPage
     {
-        User user;
-        public ChangeValues(User Useras)
+        Utilizator user_curent;
+        public ChangeValues(Utilizator utilizator)
         {
-            user = Useras;
+            user_curent = utilizator;
             InitializeComponent();
         }
         private async void Aa(object sender, EventArgs e)

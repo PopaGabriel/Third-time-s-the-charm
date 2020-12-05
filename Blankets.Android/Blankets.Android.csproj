@@ -103,9 +103,6 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Chaat.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\chat_bubble_fill.jpg" />
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>

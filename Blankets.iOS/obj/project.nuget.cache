@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xvh8vUHy2Igdix2+0Wz4hwfTYg+1U3nCswqxVy4JzBtT5RaYCG7D8qGCJGzUSifSvHP1xO9MEZw4gdMOZLqZqw==",
+  "dgSpecHash": "KoZVIkjRgF/x2aS8/cfoJEq8jRjSvJGqNDFfISbJ4s1AudTSwv+U3FRzXS2ooGDsWTPPtH4UDopcfD/KEfjCVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets.iOS\\Blankets.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Theodor\\Desktop\\hack lsac\\blankets4\\Third-time-s-the-charm\\Blankets.iOS\\Blankets.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Catalin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "C:\\Users\\Theodor\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "E:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "E:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
   "logs": []
 }

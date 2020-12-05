@@ -22,9 +22,10 @@
             </StackLayout>
             <StackLayout x:Name="ProfileDetails" VerticalOptions="FillAndExpand">
                 <Label x:Name="ProfileName" Text ="Profile Name" />
-                    <Label x:Name="Work_Position" Text ="Job: {User.job}" />
-                    <Label x:Name="ProfileCompany" Text="Company {User.company}"/>
-                   <Button x:Name="Change_Account_Details" Text="Change account details!" Clicked="ChangeAccountDetails"/>
+                <Label x:Name="Email" Text ="Profile Name" />
+                <Label x:Name="Work_Position" Text ="Job: {User.job}" />
+                <Label x:Name="ProfileCompany" Text="Company {User.company}"/>
+                <Button x:Name="Change_Account_Details" Text="Change account details!" Clicked="ChangeAccountDetails"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

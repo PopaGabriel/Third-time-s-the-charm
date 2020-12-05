@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets\\Blankets.csproj": {}
+    "C:\\Users\\Theodor\\Desktop\\hack lsac\\blankets4\\Third-time-s-the-charm\\Blankets\\Blankets.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets\\Blankets.csproj": {
+    "C:\\Users\\Theodor\\Desktop\\hack lsac\\blankets4\\Third-time-s-the-charm\\Blankets\\Blankets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets\\Blankets.csproj",
+        "projectUniqueName": "C:\\Users\\Theodor\\Desktop\\hack lsac\\blankets4\\Third-time-s-the-charm\\Blankets\\Blankets.csproj",
         "projectName": "Blankets",
-        "projectPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets\\Blankets.csproj",
-        "packagesPath": "C:\\Users\\Catalin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets\\obj\\",
+        "projectPath": "C:\\Users\\Theodor\\Desktop\\hack lsac\\blankets4\\Third-time-s-the-charm\\Blankets\\Blankets.csproj",
+        "packagesPath": "C:\\Users\\Theodor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Theodor\\Desktop\\hack lsac\\blankets4\\Third-time-s-the-charm\\Blankets\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "E:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Catalin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Theodor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

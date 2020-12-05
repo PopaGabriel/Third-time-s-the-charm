@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "KTXEO6CMMb87rh4lCCXRKc+bOO1fwECQZX1O4l2iGvB1rEC9j3ec/RnNxnxgzjReFVgJGcp44dMvmLmcfexgAw==",
+  "dgSpecHash": "3jwtB8HWOQXS8cWVvrdhx3j4fS6jjvb7gXjfeabg6sZ3fQAyx+6YjchHWQS7tfENY0a/ihnTFV3tekpSb0hLBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets\\Blankets.csproj",
+  "projectFilePath": "C:\\Users\\Theodor\\Desktop\\hack lsac\\blankets4\\Third-time-s-the-charm\\Blankets\\Blankets.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Catalin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Catalin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Catalin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\Catalin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "C:\\Users\\Theodor\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Theodor\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Theodor\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Theodor\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "E:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "E:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
   "logs": []
 }
