@@ -2,8 +2,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Blankets.Views_Folder.Meniu">
     <StackLayout Margin="20,35,20,20">
+        <StackLayout>
+            <Button x:Name="Button_enter_Big_Chat" Text="Main Group" Clicked ="ProcedureEnterChat"/>
+        </StackLayout>
         <ListView x:Name="ListView_Prieteni" ItemsSource="{Binding Users}" 
-          HasUnevenRows="true">
+          HasUnevenRows="true" ItemTapped="OnItemSelected">
             <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>

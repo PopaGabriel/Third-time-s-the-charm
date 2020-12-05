@@ -17,3 +17,5 @@ C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\r
 C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\Blankets.pdb
 C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\Blankets.csprojAssemblyReference.cache
 C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\Views Folder\Meniu.xaml.g.cs
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\Views Folder\BigChat.xaml.g.cs
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\Views Folder\SmallPage.xaml.g.cs

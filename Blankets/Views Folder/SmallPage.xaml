@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Blankets.Views_Folder.SmallPage">
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand" Spacing="10" HorizontalOptions="Center">
+            <Label x:Name="Nume_conversatie" Text="{Binding de_folosit_ca_titlu}" TextColor="White" FontSize="20" Margin="0,0,40,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <StackLayout VerticalOptions="End" Margin="0,10,0,20">
+        <Grid x:Name="Buttons" ColumnDefinitions="70*, 15*, 15*" ColumnSpacing="8" HorizontalOptions="FillAndExpand"  >
+            <Entry x:Name="Entry_Small_Page" Grid.Column="0"/>
+            <Button x:Name ="ButtonSignUp" Grid.Column="1" Text="Sign Up"  HorizontalOptions="FillAndExpand"/>
+            <Button x:Name ="GoBack" Grid.Column="2" Text="Go Back"  HorizontalOptions="FillAndExpand"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>
