@@ -1981,11 +1981,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac2\\Blankets\\Blankets.Android\\Blankets.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets.Android\\Blankets.Android.csproj",
       "projectName": "Blankets.Android",
-      "projectPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac2\\Blankets\\Blankets.Android\\Blankets.Android.csproj",
+      "projectPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets.Android\\Blankets.Android.csproj",
       "packagesPath": "C:\\Users\\Catalin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac2\\Blankets\\Blankets.Android\\obj\\",
+      "outputPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2006,8 +2006,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac2\\Blankets\\Blankets\\Blankets.csproj": {
-              "projectPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac2\\Blankets\\Blankets\\Blankets.csproj"
+            "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets\\Blankets.csproj": {
+              "projectPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets\\Blankets.csproj"
             }
           }
         }

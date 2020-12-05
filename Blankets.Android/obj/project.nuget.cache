@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zYv6rmLzL+UVGAAlY5E95imiZRjkMsnjNu3Wsx87JpaWVg4h7GhpvtgY4j1gjOkgfwKWgZMvRZhgaEvbmTLmGg==",
+  "dgSpecHash": "jIE8DgX3gZG92Wp3H2j8eRy8xQF1L2SkBMgLe4xqLs9QKXRrT4j7ivrXsdfonZTPTkfRHzPK3+hm9Mm2gtrwuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac2\\Blankets\\Blankets.Android\\Blankets.Android.csproj",
+  "projectFilePath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets.Android\\Blankets.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Catalin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",

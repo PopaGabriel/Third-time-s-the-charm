@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UtKQK50f5BGapUwAo4tsrX4nY1k6kFf6ICV7wDsoOoxR3kpWVMqdg3GCAWK+vMoeXtwY9w1N/ig56IV7H8NmCw==",
+  "dgSpecHash": "KTXEO6CMMb87rh4lCCXRKc+bOO1fwECQZX1O4l2iGvB1rEC9j3ec/RnNxnxgzjReFVgJGcp44dMvmLmcfexgAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac2\\Blankets\\Blankets\\Blankets.csproj",
+  "projectFilePath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets\\Blankets.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Catalin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Catalin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

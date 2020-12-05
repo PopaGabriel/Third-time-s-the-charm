@@ -1,0 +1,28 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Blankets.Views_Folder.Meniu">
+    <StackLayout Margin="20,35,20,20">
+        <ListView x:Name="ListView_Prieteni" ItemsSource="{Binding Users}" 
+          HasUnevenRows="true">
+            <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="1"
+                           Text="{Binding username}"
+                           FontAttributes="Bold" />
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

@@ -18,7 +18,7 @@
     <ContentPage.Content>
         <StackLayout>
             <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand" Margin="40, 50, 40, 0 ">
-                <Image x:Name="LoginIcon" Source= "logo_size_invert.jpg"/>
+                <Image  x:Name="LoginIcon" Source= "logo_size_invert.jpg"/>
             </StackLayout>
             <StackLayout x:Name="ProfileDetails" VerticalOptions="FillAndExpand">
                 <Label x:Name="ProfileName" Text ="Profile Name" />

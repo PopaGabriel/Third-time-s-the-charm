@@ -1059,11 +1059,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac2\\Blankets\\Blankets.iOS\\Blankets.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets.iOS\\Blankets.iOS.csproj",
       "projectName": "Blankets.iOS",
-      "projectPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac2\\Blankets\\Blankets.iOS\\Blankets.iOS.csproj",
+      "projectPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets.iOS\\Blankets.iOS.csproj",
       "packagesPath": "C:\\Users\\Catalin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac2\\Blankets\\Blankets.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1084,8 +1084,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac2\\Blankets\\Blankets\\Blankets.csproj": {
-              "projectPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac2\\Blankets\\Blankets\\Blankets.csproj"
+            "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets\\Blankets.csproj": {
+              "projectPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets\\Blankets.csproj"
             }
           }
         }

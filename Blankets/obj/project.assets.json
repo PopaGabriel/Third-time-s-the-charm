@@ -678,11 +678,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac2\\Blankets\\Blankets\\Blankets.csproj",
+      "projectUniqueName": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets\\Blankets.csproj",
       "projectName": "Blankets",
-      "projectPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac2\\Blankets\\Blankets\\Blankets.csproj",
+      "projectPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets\\Blankets.csproj",
       "packagesPath": "C:\\Users\\Catalin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac2\\Blankets\\Blankets\\obj\\",
+      "outputPath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GAoQoPRlcG0TzYOHXkgyL0/EW0AHKGvavreEJouN3PSF6F9xBqa01IcEMI1hL6i35jswZI/FNADXUnHHjQD2SQ==",
+  "dgSpecHash": "xvh8vUHy2Igdix2+0Wz4hwfTYg+1U3nCswqxVy4JzBtT5RaYCG7D8qGCJGzUSifSvHP1xO9MEZw4gdMOZLqZqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac2\\Blankets\\Blankets.iOS\\Blankets.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Catalin\\Desktop\\HackLsac\\hack-lsac3\\Blankets.iOS\\Blankets.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Catalin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",

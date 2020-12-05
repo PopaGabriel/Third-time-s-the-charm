@@ -41,6 +41,9 @@ namespace Blankets
         public string password { get; set; }
         public string IdWork { get; set; }
         public string email { get; set; }
-
+        public override string ToString()
+        {
+            return username;
+        }
     }
 }

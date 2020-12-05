@@ -1,56 +1,19 @@
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\bin\Debug\netstandard2.0\Blankets.deps.json
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\bin\Debug\netstandard2.0\Blankets.dll
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\bin\Debug\netstandard2.0\ref\Blankets.dll
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\bin\Debug\netstandard2.0\Blankets.pdb
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Views Folder\LoginPage.xaml.g.cs
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Views Folder\SignUpPage.xaml.g.cs
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.AssemblyInfoInputs.cache
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.AssemblyInfo.cs
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.csproj.CoreCompileInputs.cache
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.dll
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\obj\Debug\netstandard2.0\ref\Blankets.dll
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.pdb
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.csprojAssemblyReference.cache
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Views Folder\ProfilePage.xaml.g.cs
-<<<<<<< HEAD
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Views Folder\ChangeValues.xaml.g.cs
-=======
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\bin\Debug\netstandard2.0\Blankets.deps.json
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\bin\Debug\netstandard2.0\Blankets.dll
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\bin\Debug\netstandard2.0\ref\Blankets.dll
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\bin\Debug\netstandard2.0\Blankets.pdb
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.csprojAssemblyReference.cache
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Views Folder\LoginPage.xaml.g.cs
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Views Folder\ProfilePage.xaml.g.cs
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Views Folder\SignUpPage.xaml.g.cs
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.AssemblyInfoInputs.cache
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.AssemblyInfo.cs
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.csproj.CoreCompileInputs.cache
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.dll
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\obj\Debug\netstandard2.0\ref\Blankets.dll
-C:\Users\Theodor\Desktop\hack lsac\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.pdb
->>>>>>> c9c398060ce0c340b32a23258ed6c44d1aeb2ddb
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\bin\Debug\netstandard2.0\Blankets.deps.json
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\bin\Debug\netstandard2.0\Blankets.dll
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\bin\Debug\netstandard2.0\ref\Blankets.dll
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\bin\Debug\netstandard2.0\Blankets.pdb
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.csprojAssemblyReference.cache
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\obj\Debug\netstandard2.0\Views Folder\ChangeValues.xaml.g.cs
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\obj\Debug\netstandard2.0\Views Folder\LoginPage.xaml.g.cs
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\obj\Debug\netstandard2.0\Views Folder\ProfilePage.xaml.g.cs
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\obj\Debug\netstandard2.0\Views Folder\SignUpPage.xaml.g.cs
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.AssemblyInfoInputs.cache
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.AssemblyInfo.cs
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.csproj.CoreCompileInputs.cache
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.dll
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\obj\Debug\netstandard2.0\ref\Blankets.dll
-C:\Users\Catalin\Desktop\HackLsac\hack-lsac2\Blankets\Blankets\obj\Debug\netstandard2.0\Blankets.pdb
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\bin\Debug\netstandard2.0\Blankets.deps.json
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\bin\Debug\netstandard2.0\Blankets.dll
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\bin\Debug\netstandard2.0\ref\Blankets.dll
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\bin\Debug\netstandard2.0\Blankets.pdb
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\Views Folder\ChangeValues.xaml.g.cs
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\Views Folder\LoginPage.xaml.g.cs
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\Views Folder\ProfilePage.xaml.g.cs
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\Views Folder\SignUpPage.xaml.g.cs
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\Blankets.AssemblyInfoInputs.cache
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\Blankets.AssemblyInfo.cs
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\Blankets.csproj.CoreCompileInputs.cache
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\Blankets.dll
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\ref\Blankets.dll
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\Blankets.pdb
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\Blankets.csprojAssemblyReference.cache
+C:\Users\Catalin\Desktop\HackLsac\hack-lsac3\Blankets\obj\Debug\netstandard2.0\Views Folder\Meniu.xaml.g.cs

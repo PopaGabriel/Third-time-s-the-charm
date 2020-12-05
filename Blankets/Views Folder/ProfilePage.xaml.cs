@@ -19,6 +19,8 @@ namespace Blankets
         {
             user_current = user;
             InitializeComponent();
+            if(user_current.UserName1 != null)
+                ProfileName.SetBinding(Label.TextProperty, user_current.UserName1);
         }
         private async void ChangeAccountDetails(object sender, EventArgs e)
         {
@@ -35,9 +37,13 @@ namespace Blankets
                 await Navigation.PushAsync(new Page1());
             }
         }
-        private void ProcedureMenu(object sender, EventArgs e)
+        private async void ProcedureMenu(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new Meniu());
+        }
+        private void ProcedureChangePhoto(object sender, EventArgs e)
+        {
+            //Aici teoretic schimbam poza
         }
     }
 }
