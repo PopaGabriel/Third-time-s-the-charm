@@ -1,4 +1,5 @@
 ﻿using Blankets.Models;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,13 +44,51 @@ namespace Blankets.Views_Folder
         }
         public async void ProcedureEnterChat(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new BigChat());
+            HttpClient client = new HttpClient();
+            string url = "https://iulia.rms-it.ro/api/auth/group";
+            client.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);
+            HttpResponseMessage response = null;
+            response = await client.GetAsync(url);
+
+            if (response.IsSuccessStatusCode)
+            {
+                string encoded = await response.Content.ReadAsStringAsync();
+                Message[] messages = JsonConvert.DeserializeObject<Message[]>(encoded);
+
+                Application.Current.MainPage = new NavigationPage(new BigChat(utilizator, token, messages));
+            }
+            else
+            {
+                await DisplayAlert("Didn't work", "Nope", "Ok");
+            }
+        }
+        public async void ProcedureProfilepage(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new NavigationPage(new Test(utilizator, token));
         }
         public async void OnItemSelected(object sender, ItemTappedEventArgs e)
         {
             Utilizator mydetail = e.Item as Utilizator;
             //await DisplayAlert("Alert", mydetail.username, "OK");
-            await Navigation.PushAsync(new SmallPage(mydetail, utilizator, token));
+            
+
+            HttpClient client = new HttpClient();
+            string url = "https://iulia.rms-it.ro/api/auth/conversation/" + mydetail.id;
+            client.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);
+            HttpResponseMessage response = null;
+            response = await client.GetAsync(url);
+
+            if (response.IsSuccessStatusCode)
+            {
+                string encoded = await response.Content.ReadAsStringAsync();
+                
+                Message[] messages = JsonConvert.DeserializeObject<Message[]>(encoded);
+                Application.Current.MainPage = new NavigationPage(new SmallPage(mydetail, utilizator, token, messages));
+            }
+            else
+            {
+                await DisplayAlert("Didn't work", "Nope", "Ok");
+            }
         }
     }
 }

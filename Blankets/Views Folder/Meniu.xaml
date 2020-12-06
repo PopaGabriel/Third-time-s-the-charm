@@ -3,6 +3,7 @@
              x:Class="Blankets.Views_Folder.Meniu">
     <StackLayout Margin="20,35,20,20">
         <StackLayout>
+            <Button x:Name="Button_back" Text="Profile page" Clicked ="ProcedureProfilepage"/>
             <Button x:Name="Button_enter_Big_Chat" Text="Main Group" Clicked ="ProcedureEnterChat"/>
         </StackLayout>
         <ListView x:Name="ListView_Prieteni" ItemsSource="{Binding Users}" 
