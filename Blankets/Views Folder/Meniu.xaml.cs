@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,63 +14,26 @@ namespace Blankets.Views_Folder
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Meniu : ContentPage
     {
+        Utilizator utilizator;
+        string token;
+        Utilizator[] utilizators;
         public IList<Utilizator> Users { get; private set; }
-        public Meniu()
+        public Meniu(Utilizator utilizator, string token, Utilizator[] utilizators)
         {
             InitializeComponent();
             Init();
+            this.utilizator = utilizator;
+            this.token = token;
+            this.utilizators = utilizators;
+
+
+
             Users = new List<Utilizator>();
-            Utilizator a = new Utilizator();
-            a.username = "Andrei";
-            Users.Add(a);
-
-            Utilizator b = new Utilizator();
-            b.username = "Andrei2";
-            Users.Add(b);
-
-            Utilizator c = new Utilizator();
-            c.username = "Andrei4";
-            Users.Add(c);
-
-            Utilizator d = new Utilizator();
-            d.username = "Andrei5";
-            
-            Users.Add(d);
-            Utilizator e = new Utilizator(); 
-            e.username = "Andrei6";
-
-            Users.Add(e);
-            Utilizator f = new Utilizator();
-            f.username = "Andrei7";
-            Users.Add(f);
-
-            Utilizator g = new Utilizator();
-            g.username = "Andrei8";
-            Users.Add(g);
-
-            Utilizator h = new Utilizator();
-            h.username = "Andrei9";
-            Users.Add(h);
-
-            Utilizator i = new Utilizator();
-            i.username = "Andrei10";
-            Users.Add(i);
-
-            Utilizator j = new Utilizator();
-            j.username = "Andrei11";
-            Users.Add(j);
-
-            Utilizator k = new Utilizator();
-            k.username = "Andrei12";
-            Users.Add(k);
-
-            Utilizator l = new Utilizator();
-            l.username = "Andrei Georgeta Mamu";
-            Users.Add(l);
-
-            Utilizator aa = new Utilizator();
-            aa.username = "Andrei14";
-            Users.Add(aa);
+            foreach (Utilizator iterator in utilizators)
+            {
+                if(utilizator != iterator)
+                    Users.Add(iterator);
+            }
 
             BindingContext = this;
         }
@@ -85,7 +49,7 @@ namespace Blankets.Views_Folder
         {
             Utilizator mydetail = e.Item as Utilizator;
             //await DisplayAlert("Alert", mydetail.username, "OK");
-            await Navigation.PushAsync(new SmallPage(mydetail));
+            await Navigation.PushAsync(new SmallPage(mydetail, utilizator, token));
         }
     }
 }

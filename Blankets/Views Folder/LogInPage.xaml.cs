@@ -75,7 +75,6 @@ namespace Blankets.Views_Folder
                         {
                             string encoded2 = await response2.Content.ReadAsStringAsync();
                             Utilizator utilizator = JsonConvert.DeserializeObject<Utilizator>(encoded2);
-                            await DisplayAlert("Debug", utilizator.username + utilizator.email, "Ok");
                             Application.Current.MainPage = new NavigationPage(new Test(utilizator, decoded.access_token));
                         }
                         else

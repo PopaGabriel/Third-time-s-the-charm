@@ -22,7 +22,10 @@
                         <Label Grid.Column="1"
                            Text="{Binding username}"
                            FontAttributes="Bold" />
-                    </Grid>
+                            <Label Grid.Column="2"
+                           Text="{Binding email}"
+                           FontAttributes="Bold" />
+                        </Grid>
                 </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>

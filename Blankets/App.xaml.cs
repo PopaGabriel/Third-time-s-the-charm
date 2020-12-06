@@ -41,6 +41,7 @@ namespace Blankets
         public string password { get; set; }
         public string IdWork { get; set; }
         public string email { get; set; }
+        public string id { get; set; }
         public override string ToString()
         {
             return username;
@@ -52,5 +53,10 @@ namespace Blankets
         public string token_type { get; set; }
         public string expires_at { get; set; }
 
+    }
+    public class Message
+    {
+        public string senderId { get; set; }
+        public string message { get; set; }
     }
 }

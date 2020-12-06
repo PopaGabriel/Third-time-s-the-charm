@@ -1,8 +1,10 @@
 ﻿using Blankets.Models;
 using Blankets.Views_Folder;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -43,7 +45,30 @@ namespace Blankets
         }
         private async void ProcedureMenu(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Meniu());
+            HttpClient client = new HttpClient();
+            string url = "https://iulia.rms-it.ro/api/auth/all";
+            client.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);
+            HttpResponseMessage response = null;
+            response = await client.GetAsync(url);
+            if (response.IsSuccessStatusCode)
+            {
+                string encoded = await response.Content.ReadAsStringAsync();
+                Utilizator[] utilizatori = JsonConvert.DeserializeObject<Utilizator[]>(encoded);
+                if (Device.RuntimePlatform == Device.Android)
+                {
+                    
+                    Application.Current.MainPage = new NavigationPage(new Meniu(user_current, token, utilizatori));
+                }
+                else
+                {
+                    await Navigation.PushAsync(new Meniu(user_current, token, utilizatori));
+                }
+            }
+            else
+            {
+                await DisplayAlert("Didn't work", "Nope", "Ok");
+            }
+            
         }
         private void ProcedureChangePhoto(object sender, EventArgs e)
         {
